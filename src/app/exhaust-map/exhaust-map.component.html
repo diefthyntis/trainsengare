@@ -1,0 +1,12 @@
+<h1>ExhaustMap</h1>
+Un observable emet une lumière jaune ou rouge<br>
+Un autre observable regarde la lumière et emet un appel pour faire partir
+le train de la même couleur
+Si un train est appelé alors que le précédent n'est pas encore arrivé, on ignore l'appelé
+
+{{aboutLight}}<br>
+<li *ngFor="let element of done">
+    {{ element }}
+  </li>
+
+
